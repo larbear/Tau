@@ -223,7 +223,7 @@ class TauImage
 		}
 
 		$greyScaleImage = array();
-		$averageValue = $finalHash = 0;
+		$averageValue = 0;
 		$pixels = $size * $size;
 
 
