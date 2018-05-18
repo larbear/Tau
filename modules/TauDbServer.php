@@ -23,6 +23,7 @@ class TauDbServer
 	public $password;
 	public $database = '';
 	public $connection = false;
+	public $terminate_on_error = false;
 
 	function __construct(
 		$database = '',
